@@ -44,3 +44,16 @@ button {
 button:hover {
     background: darkred;
 }
+.shop-item {
+    background: #222;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    width: 320px;
+    border: 2px solid #d60000;
+    transition: transform 0.2s ease;
+}
+
+.shop-item:hover {
+    transform: scale(1.03);
+}
